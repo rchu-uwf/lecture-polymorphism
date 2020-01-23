@@ -29,6 +29,7 @@ class CritterTest {
 		zoo[1] = new Frog("blue");
 		zoo[2] = new Bird();
 
+		// Illustrate polymorphism
 		String moveString;
 		for (int i = 0; i < zoo.length; ++i) {
 			moveString = zoo[i].move();
