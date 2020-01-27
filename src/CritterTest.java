@@ -37,4 +37,23 @@ class CritterTest {
 		}
 	}
 
+	@Test
+	void forLoopsTest() {
+
+		String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+
+		// This style of for-each loop works for arrays.
+		for (String myCar : cars) {
+			System.out.println(myCar);
+		}
+	}
+
+	@Test
+	void conditionalTest() {
+
+		Conditionals myTest = new Conditionals();
+		myTest.trySwitch();
+
+	}
+
 }

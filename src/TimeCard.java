@@ -5,8 +5,8 @@
 
 public class TimeCard {
 
-	int wage;
-	int minutes;
+	private int wage;
+	private int minutes;
 	
 	TimeCard() {
 		
